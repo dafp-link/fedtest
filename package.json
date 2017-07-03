@@ -1,0 +1,30 @@
+{
+  "name": "fedtestlmd",
+  "version": "1.0.0",
+  "description": "Front End test for Lemonade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dagmarford/fedtest.git"
+  },
+  "keywords": [
+    "lemonade"
+  ],
+  "author": "Dagmar Ford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dagmarford/fedtest/issues"
+  },
+  "homepage": "https://github.com/dagmarford/fedtest",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

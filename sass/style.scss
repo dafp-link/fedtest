@@ -1,0 +1,119 @@
+@import 'base';
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins/grid-framework";
+@import "bootstrap/mixins/grid";
+@import "bootstrap/grid";
+
+body{
+    color:$content-color;
+}
+
+.container{
+    max-width: $content-width;
+    background-color: $content-bgcolor;
+    @include padding-rl(0px);
+}
+
+img{
+    .toplogodiv & {
+      width: 21%;
+    }
+
+    .bottomlogodiv & {
+      width: 15%;
+    }
+
+    .bannerdiv & {
+      width: 100%;
+    }  
+}
+	
+.toplogodiv, .bottomlogodiv{
+    background-color:$logo-bgcolor;
+}	
+
+.toplogodiv img, .bottomlogodiv img{
+	@include padding-tb(20px);
+    @include img-center;
+
+}	
+	
+.mainheading{
+    @include padding-tb(10px);
+}
+	
+.mainheading h1, #jsoncontent h2{
+	font-family: $heading-font;
+	text-transform: uppercase;	
+	font-weight:bold!important;
+}
+
+.mainheading h1{
+    font-size:1.25em;
+	letter-spacing: 2px;
+    text-align:center;
+}	
+	
+#jsoncontent{ 
+        overflow: auto;    
+    h2{
+        font-size:1.07em;
+        letter-spacing: 1px;
+        @include margin-tb(18px);
+    }
+  
+    &.row{   
+        @include margin-rl(0px);
+    }
+  
+    .col-md-6{
+        @include padding-rl(0px);
+        width:49%;
+    }
+  
+    p{    
+        font-family: $paragraph-font;
+        margin:0px;
+        font-size: 0.8em;
+    }
+
+    .textwrap{   
+        padding:10px;
+    }  
+}
+ 	
+	
+.catpic{
+	width:100%;
+}
+	
+@media (max-width: 480px)
+{
+	.toplogodiv img{
+        width: 35%;
+	}
+	
+	.bottomlogodiv img{
+        width: 25%;
+	}	
+
+	.mainheading h1{
+        font-size:0.9em;
+		margin-top:10px;
+	}	  
+}
+	
+@media (min-width: 992px)
+{
+	#jsoncontent .col-md-6:nth-child(even){
+        float:right;
+	}		
+}
+	
+@media (max-width: 991px)
+{
+	#jsoncontent .col-md-6{
+        width:100%;
+	}		
+}

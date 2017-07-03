@@ -1,0 +1,31 @@
+$content-width: 970px;
+$content-color:#000;
+$content-bgcolor:#d7d7d7!important;
+$logo-bgcolor:#fff;
+$paragraph-font: Georgia, Serif;
+$heading-font: 'Montserrat', sans-serif;
+
+@mixin padding-rl($pixelval) {
+    padding-right: $pixelval;
+    padding-left: $pixelval;
+}
+
+@mixin padding-tb($pixelval) {
+    padding-top: $pixelval;
+    padding-bottom: $pixelval;
+}
+
+@mixin margin-rl($pixelval) {
+    margin-right: $pixelval;
+    margin-left: $pixelval;
+}
+
+@mixin margin-tb($pixelval) {
+    margin-top: $pixelval;
+    margin-bottom: $pixelval;
+}
+
+@mixin img-center{
+    display: block;
+    margin: 0 auto;
+}    
