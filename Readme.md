@@ -27,7 +27,8 @@ Bootstrap Sass (grid only)
 https://github.com/nervewax/bootstrap-sass/commit/a7c3c6382e144a7fcc72d038445c35f4f6f866f4
 
 Headings font:
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+https://fonts.googleapis.com/css?family=Montserrat
 
 ///////////////////////////////////////////
+
 contact: webmaster@dagubatsu.com
