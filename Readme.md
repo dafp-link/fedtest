@@ -1,5 +1,7 @@
-Web page with responsive layout - made with HTML5, CSS3, jQuery, Bootstrap, SASS, JSON
-SASS files compiled with GruntJS
+Web page with responsive layout - made with HTML5, CSS3, jQuery, Bootstrap, SASS, JSON.
+
+SASS files compiled with GruntJS.
+
 Author: D Ford.
 
 -Loads remote image files (URLs are listed in a local JSON file) and appends them to the index page dynamically.
