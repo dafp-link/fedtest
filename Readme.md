@@ -12,7 +12,8 @@ Author: D Ford.
 PROJECT LINKS:
 
 GitHub: https://github.com/dagmarford/fedtest
-BitBucket:
+
+BitBucket: https://dagmarford@bitbucket.org/dagmarford/frontendtest.git
 
 URL (no Node-modules or SASS files included)
 http://www.dagubatsu.com/fedtestlmd/
