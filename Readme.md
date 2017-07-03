@@ -13,7 +13,7 @@ PROJECT LINKS:
 
 GitHub: https://github.com/dagmarford/fedtest
 
-BitBucket: https://dagmarford@bitbucket.org/dagmarford/frontendtest.git
+BitBucket: https://dagmarford@bitbucket.org/dagmarford/fedtestlmd.git
 
 URL (no Node-modules or SASS files included)
 http://www.dagubatsu.com/fedtestlmd/
